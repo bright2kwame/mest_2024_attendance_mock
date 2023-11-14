@@ -6,6 +6,7 @@ public class KitchenUser extends BaseUser {
         super(firstName, lastName, middleName, email);
     }
 
+    // login implementation of the kitchen
     @Override
     void login(String email) {
         System.out.println("Kitchen Staff logged in");
